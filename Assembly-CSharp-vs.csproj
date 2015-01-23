@@ -46,9 +46,13 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\ArrowCleaner.cs" />
+     <Compile Include="Assets\Scripts\AutoZoom.cs" />
      <Compile Include="Assets\Scripts\CameraFollower.cs" />
-     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
-     <Compile Include="Assets\Scripts\SetPivot.cs" />
+     <Compile Include="Assets\Scripts\MovementProtoType.cs" />
+     <Compile Include="Assets\Scripts\PlayerMovementByCenter.cs" />
+     <Compile Include="Assets\Scripts\RotateAroundPivot.cs" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Unity4.6/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>
  </Reference>
